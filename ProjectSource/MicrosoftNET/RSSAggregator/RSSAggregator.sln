@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSAggregator", "RSSAggregator\RSSAggregator.csproj", "{6352DF2D-4EC0-4268-B0F8-6981E087F9F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E9D9007E-0F56-4B51-92B9-C7261002A097} = {E9D9007E-0F56-4B51-92B9-C7261002A097}
+		{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0} = {586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSData", "RSSData\RSSData.csproj", "{E9D9007E-0F56-4B51-92B9-C7261002A097}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSNetwork", "RSSNetwork\RSSNetwork.csproj", "{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6352DF2D-4EC0-4268-B0F8-6981E087F9F7}.Debug.ActiveCfg = Debug|.NET
+		{6352DF2D-4EC0-4268-B0F8-6981E087F9F7}.Debug.Build.0 = Debug|.NET
+		{6352DF2D-4EC0-4268-B0F8-6981E087F9F7}.Release.ActiveCfg = Release|.NET
+		{6352DF2D-4EC0-4268-B0F8-6981E087F9F7}.Release.Build.0 = Release|.NET
+		{E9D9007E-0F56-4B51-92B9-C7261002A097}.Debug.ActiveCfg = Debug|.NET
+		{E9D9007E-0F56-4B51-92B9-C7261002A097}.Debug.Build.0 = Debug|.NET
+		{E9D9007E-0F56-4B51-92B9-C7261002A097}.Release.ActiveCfg = Release|.NET
+		{E9D9007E-0F56-4B51-92B9-C7261002A097}.Release.Build.0 = Release|.NET
+		{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}.Debug.ActiveCfg = Debug|.NET
+		{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}.Debug.Build.0 = Debug|.NET
+		{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}.Release.ActiveCfg = Release|.NET
+		{586B12A5-F3E6-47DF-90F9-E9DCC9DFFCC0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

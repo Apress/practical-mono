@@ -1,0 +1,9 @@
+<xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="defaultfeed" type="xs:string"/>
+        <xs:element name="dbconnection" type="xs:string"/>
+        <xs:element name="maxchannelitems" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+</xs:element>
