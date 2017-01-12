@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 public class MyCollection
 {
@@ -22,7 +23,7 @@ class Test
   {
 
     MyCollection m = new MyCollection();
-    foreach (string s in MyCollection)
+    foreach (string s in m)
     {
       Console.Out.WriteLine(s);
     }
