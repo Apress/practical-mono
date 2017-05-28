@@ -29,12 +29,12 @@ class Test
 {
   static void Main(string[] args)
   {
-    MyIntCollection<int> ic = new MyIntCollection<int>();
-    c.Add(4);
-    c.Add(102);
+    MyCollection<int> ic = new MyCollection<int>();
+    ic.Add(4);
+    ic.Add(102);
 
 
-    MyStringCollection<int> sc = new MyStringCollection<int>();
+    MyCollection<string> sc = new MyCollection<string>();
     sc.Add("Mark");
     sc.Add("Mamone");
 
